@@ -35,7 +35,8 @@ const Detail = ( { exerciseDetail }) => {
                 Exercises keep you strong.{' '}
                 <span style={{ textTransform: 'capitalize' }}>{name}</span> bup is one
                 of the best <br /> exercises to target your {target}. It will help you improve your{' '}
-                <br /> mood and gain energy.
+                <br /> mood and gain energy
+                <br /> Perform 3 sets from 8 to 12 repetitions progressing each workout.
             </Typography>
             {extraDetail.map((item) => (
                 <Stack key={item.name} direction="row" gap="24px" alignItems="center">

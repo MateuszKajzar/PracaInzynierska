@@ -38,9 +38,9 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   }
   return (
     <Stack alignItems="center" mt="40px" justifyContent="center" p="20px">
-      <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '30px'}}} mb="50px" textAlign="center">
-        Brak pomysłu na trening? <br /> 
-        Wyszukaj najlepsze ćwiczenia!
+      <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '30px'}}} mt="20px" mb="50px" textAlign="center">
+        Search the best exercises <br /> 
+        for each muscle group
       </Typography>
       <Box position="relative" mb="72px">
       <TextField
